@@ -1,0 +1,23 @@
+import pyjokes
+joke = pyjokes.get_joke()
+print(joke)
+
+# another example
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("This programme read the text")
+engine.runAndWait()
+
+# Write a python program to print the contents of a directory using the os module. 
+# Search online for the function which does that.   (searching on chat gpt)
+import os
+
+# Specify the directory path
+directory_path = '/'
+
+# List all entries in the directory
+entries = os.listdir(directory_path)
+
+# Print each entry
+for entry in entries:
+    print(entry)
