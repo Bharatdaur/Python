@@ -1,0 +1,43 @@
+#variable : a variable is the name given to a memory location
+a=1
+b=2
+print(a+b)
+
+# data type : Integer, float, string, bool
+a=1  # it is a int data type
+b=2.2 # it is a float data type
+c = "bharat" # it is a string data type
+d= True # it is a boolean data type
+e= None # is is a none data type
+
+# operators :-
+# Arithametic operataors (+,-,*,/)
+a=7
+b=4
+print(a+b)
+# Assingment operators (=,+=,-=,etc)
+a=5-3
+print(a)
+b=6
+b+= 3  # inrement the value of b by 3 and assign it to b 
+print(b)
+
+# comparision operators (==,<,>,>=,!=,etc) (it always answer in true or false)
+d= 5==5
+print(d)
+
+# logical operators (or,and,not)
+e= True or False
+# truth table of or 
+print("true or false is ", True or False)
+print("true or true is ", True or True)
+print("false or true is ", False or True)
+print("false or false is ", False or False)
+
+# truth table of and
+print("true and false is ", True and False)
+print("true and true is ", True and True)
+print("false and true is ", False and True)
+print("false and false is ", False and False)
+
+print(not(True)) # it reverse the operator
