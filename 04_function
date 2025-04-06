@@ -1,0 +1,16 @@
+ # type function
+a="daur"
+print(type(a))
+        # or
+a=30.0
+b= float(a) # b=a but the type should be float
+t = type(a)
+print(t)  
+
+a=int(input("Enter the no. :" ))
+b=int(input("Enter the no. :" ))
+
+print("number a is: ", a)
+print("number b is : ", b)
+
+print (a+b)
