@@ -1,0 +1,59 @@
+# Write the programme to store seven fruits in a lists entered by the user.
+
+fruits = []
+
+f1 = input("Enter the fruit name: ")
+fruits.append(f1)
+f2 = input("Enter the fruit name: ")
+fruits.append(f2)
+f3 = input("Enter the fruit name: ")
+fruits.append(f3)
+f4 = input("Enter the fruit name: ")
+fruits.append(f4)
+f5 = input("Enter the fruit name: ")
+fruits.append(5)
+f6 = input("Enter the fruit name: ")
+fruits.append(f6)
+f7 = input("Enter the fruit name: ")
+fruits.append(f7)
+
+print(fruits)
+
+
+# write a programme to accept marks of 6 students and display them in sorted manner
+marks = []
+
+f1 = int(input("Enter Marks here: "))
+marks.append(f1)
+f2 = int(input("Enter Marks here: "))
+marks.append(f2)
+f3 = int(input("Enter Marks here: "))
+marks.append(f3)
+f4 = int(input("Enter Marks here: "))
+marks.append(f4)
+f5 = int(input("Enter Marks here: "))
+marks.append(f5)
+f6 = int(input("Enter Marks here: "))
+marks.append(f6)
+
+marks.sort()
+
+print(marks)
+
+# check that tuple type can not changed in python
+a = (34, 234, "Harry")
+
+# a[2] = "Larry"   it throes an error
+
+
+# write a programme to sum a lists with 4 no.
+l = [3, 3, 5, 1]
+
+
+print(sum(l))
+
+# Write a programme to count the no. of zeros in the following tuple
+a = (7, 0, 8, 0, 0, 9)
+
+n = a.count(0)
+print(n)
